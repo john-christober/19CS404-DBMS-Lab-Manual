@@ -52,7 +52,8 @@ HAVING condition;
 
 **Question 2**
 ---
--- ![image](https://github.com/user-attachments/assets/274fcba1-0de6-4bed-972e-89ac8ee8e4d0)
+--![image](https://github.com/user-attachments/assets/b17c8dca-c071-4580-b225-27cabf4306f1)
+
 
 
 ```sql
@@ -61,12 +62,13 @@ HAVING condition;
 
 **Output:**
 
-![image](https://github.com/user-attachments/assets/145cd93f-493e-437f-afed-daea37c22deb)
+ ![image](https://github.com/user-attachments/assets/274fcba1-0de6-4bed-972e-89ac8ee8e4d0)
 
 
 **Question 3**
 ---
--- ![image](https://github.com/user-attachments/assets/30d57a90-4e07-4b97-8a15-5e04dca1f324)
+--![image](https://github.com/user-attachments/assets/145cd93f-493e-437f-afed-daea37c22deb)
+ 
 
 
 ```sql
@@ -75,12 +77,15 @@ HAVING condition;
 
 **Output:**
 
-![image](https://github.com/user-attachments/assets/836b96a1-fb95-48f8-adee-547d33a84b88)
+![image](https://github.com/user-attachments/assets/30d57a90-4e07-4b97-8a15-5e04dca1f324)
+
+
 
 
 **Question 4**
 ---
--- ![image](https://github.com/user-attachments/assets/a63ab3c1-8b08-4dc5-8045-b0f71c8b992e)
+--![image](https://github.com/user-attachments/assets/fd742d36-e1cc-4099-8ea7-43c7fe0b3992)
+
 
 
 ```sql
@@ -89,12 +94,15 @@ HAVING condition;
 
 **Output:**
 
-![image](https://github.com/user-attachments/assets/694b8fa4-75b0-4294-b2b7-5f93513e8c59)
+![image](https://github.com/user-attachments/assets/a63ab3c1-8b08-4dc5-8045-b0f71c8b992e)
+
 
 
 **Question 5**
 ---
--- 
+--![image](https://github.com/user-attachments/assets/4196d882-f6b1-4a4c-901e-62346e009a08)
+
+
 
 ```sql
 -- select name as Employee_Name, MIN(age) as Age from employee;
@@ -143,13 +151,13 @@ HAVING condition;
 
 **Output:**
 
-![image](https://github.com/user-attachments/assets/e12e7f80-a3db-421e-839d-12000b4b3feb)
+![image](https://github.com/user-attachments/assets/e22f5fde-13cd-4ec0-8996-681b984baa56)
+
 
 
 **Question 9**
 ---
--- ![image](https://github.com/user-attachments/assets/8e6f7077-f025-48f0-824b-e51258600f65)
-
+-- ![image](https://github.com/user-attachments/assets/598c690f-d070-48c1-b680-d0e65cb07985)
 
 ```sql
 -- select age,avg(income) as 'AVG(income)' from employee group by age having avg(income) between 300000 and 500000;
@@ -157,12 +165,14 @@ HAVING condition;
 
 **Output:**
 
-![image](https://github.com/user-attachments/assets/a0adb140-ad53-4b1f-838c-87e95908e7f1)
+![image](https://github.com/user-attachments/assets/eb6e98dc-3dc9-49bb-b03d-c7c4083e898d)
+
 
 
 **Question 10**
 ---
---![image](https://github.com/user-attachments/assets/598c690f-d070-48c1-b680-d0e65cb07985)
+--![image](https://github.com/user-attachments/assets/e12e7f80-a3db-421e-839d-12000b4b3feb)
+
 
 
 ```sql
@@ -171,8 +181,7 @@ HAVING condition;
 
 **Output:**
 
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/a0adb140-ad53-4b1f-838c-87e95908e7f1)
 
 
 ## RESULT
