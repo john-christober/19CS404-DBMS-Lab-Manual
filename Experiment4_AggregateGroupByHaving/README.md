@@ -38,123 +38,141 @@ HAVING condition;
 
 **Question 1**
 --
--- Paste Question 1 here
+-- ![image](https://github.com/user-attachments/assets/ab1c44bc-7075-47f4-9e8f-aeadc4a3da64)
+
 
 ```sql
--- Paste your SQL code below for Question 1
+-- select InsuranceCompany, COUNT(DISTINCT PatientID) AS TotalPatients From Insurance GROUP BY InsuranceCompany; 
 ```
 
 **Output:**
 
-![Output1](output.png)
+![image](https://github.com/user-attachments/assets/9a4fd066-e486-475e-a44e-91df56221571)
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+-- ![image](https://github.com/user-attachments/assets/274fcba1-0de6-4bed-972e-89ac8ee8e4d0)
+
 
 ```sql
--- Paste your SQL code below for Question 2
+-- select DoctorID, COUNT(DISTINCT PatientID) AS TotalPrescriptions from Prescriptions group by DoctorID;
 ```
 
 **Output:**
 
-![Output2](output.png)
+![image](https://github.com/user-attachments/assets/145cd93f-493e-437f-afed-daea37c22deb)
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+-- ![image](https://github.com/user-attachments/assets/30d57a90-4e07-4b97-8a15-5e04dca1f324)
+
 
 ```sql
--- Paste your SQL code below for Question 3
+-- select DoctorID, count(DISTINCT PatientID) as TotalAppointments from Appointments group by DoctorID;
 ```
 
 **Output:**
 
-![Output3](output.png)
+![image](https://github.com/user-attachments/assets/836b96a1-fb95-48f8-adee-547d33a84b88)
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+-- ![image](https://github.com/user-attachments/assets/a63ab3c1-8b08-4dc5-8045-b0f71c8b992e)
+
 
 ```sql
--- Paste your SQL code below for Question 4
+-- select COUNT(*) as COUNT from customer where city = 'Noida';
 ```
 
 **Output:**
 
-![Output4](output.png)
+![image](https://github.com/user-attachments/assets/694b8fa4-75b0-4294-b2b7-5f93513e8c59)
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+-- 
 
 ```sql
--- Paste your SQL code below for Question 5
+-- select name as Employee_Name, MIN(age) as Age from employee;
 ```
 
 **Output:**
 
-![Output5](output.png)
+![image](https://github.com/user-attachments/assets/67f41555-301f-400c-a616-35098bb690a5)
+
 
 **Question 6**
 ---
--- Paste Question 6 here
+-- ![image](https://github.com/user-attachments/assets/745b7b7d-754e-4dcf-88de-36a5f8e36223)
+
 
 ```sql
--- Paste your SQL code below for Question 6
+-- select max(purch_amt) as MAXIMUM from orders;
 ```
 
 **Output:**
 
-![Output6](output.png)
+![image](https://github.com/user-attachments/assets/ee5a9c09-623f-4b6f-80da-b22b9aea633c)
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+-- ![image](https://github.com/user-attachments/assets/d8d83a38-ec4b-4cc8-a222-ff61a2b0e604)
 
 ```sql
--- Paste your SQL code below for Question 7
+-- select AVG(length(name)) as avg_name_length from customer where city='Chennai';
 ```
 
 **Output:**
 
-![Output7](output.png)
+![image](https://github.com/user-attachments/assets/b423694a-bc20-4b29-b78b-320c5986fe01)
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+-- ![image](https://github.com/user-attachments/assets/e23b2d6e-70e6-4867-82f6-e2e45e96ccfe)
+
 
 ```sql
--- Paste your SQL code below for Question 8
+--select (age/5)*5 as age_group,SUM(salary) as 'SUM(salary)' from customer1 group by age_group having SUM(salary)>5000;
 ```
 
 **Output:**
 
-![Output8](output.png)
+![image](https://github.com/user-attachments/assets/e12e7f80-a3db-421e-839d-12000b4b3feb)
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+-- ![image](https://github.com/user-attachments/assets/8e6f7077-f025-48f0-824b-e51258600f65)
+
 
 ```sql
--- Paste your SQL code below for Question 9
+-- select age,avg(income) as 'AVG(income)' from employee group by age having avg(income) between 300000 and 500000;
 ```
 
 **Output:**
 
-![Output9](output.png)
+![image](https://github.com/user-attachments/assets/a0adb140-ad53-4b1f-838c-87e95908e7f1)
+
 
 **Question 10**
 ---
--- Paste Question 10 here
+--![image](https://github.com/user-attachments/assets/598c690f-d070-48c1-b680-d0e65cb07985)
+
 
 ```sql
--- Paste your SQL code below for Question 10
+-- select jdate, max(workhour) as 'MAX(workhour)' from employee1 group by jdate having workhour >=12;
 ```
 
 **Output:**
 
-![Output10](output.png)
+![Uploading image.png…]()
+
 
 
 ## RESULT
